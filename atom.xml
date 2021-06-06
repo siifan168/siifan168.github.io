@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Pthoto个人博客</title>
+  
+  <subtitle>思凡</subtitle>
+  <link href="https://github.com/siifan168/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/siifan168/"/>
+  <updated>2021-06-06T07:42:00.822Z</updated>
+  <id>https://github.com/siifan168/</id>
+  
+  <author>
+    <name>桃思凡</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第一次个人博客制作</title>
+    <link href="https://github.com/siifan168/2021/06/06/hello-world/"/>
+    <id>https://github.com/siifan168/2021/06/06/hello-world/</id>
+    <published>2021-06-06T06:08:51.000Z</published>
+    <updated>2021-06-06T07:42:00.822Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="来源"><a class="markdownIt-Anchor" href="#来源">#</a> 来源</h2><p>借鉴了很多大佬的框架和技术，一开始感觉做出来很开心，但是一看同学已经自己搞出来了一个独立的博客，就深感，革命仍未成功，同志还需努力！！！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;来源&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#来源&quot;&gt;#&lt;/a&gt; 来源&lt;/h2&gt;
+&lt;p&gt;借鉴了很多大佬的框架和技术，一开始感觉做出来很开心，但是一看同学已经自己搞出来了一个独立的博客，就深感，革命仍未成功，同志还需努力！！！！！&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>markdom语句</title>
+    <link href="https://github.com/siifan168/2021/06/06/markdom%E8%AF%AD%E5%8F%A5/"/>
+    <id>https://github.com/siifan168/2021/06/06/markdom%E8%AF%AD%E5%8F%A5/</id>
+    <published>2021-06-06T06:08:51.000Z</published>
+    <updated>2021-06-06T06:51:08.292Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一级标题"><a class="markdownIt-Anchor" href="#一级标题">#</a> 一级标题</h1><h2 id="字体"><a class="markdownIt-Anchor" href="#字体">#</a> 字体</h2><p><em>斜体</em><br><em>斜体</em><br><strong>粗体文本</strong><br><strong>粗体文本</strong><br><em><strong>粗斜体文本</strong></em><br><em><strong>粗斜体文本</strong></em></p><h2 id="特殊线"><a class="markdownIt-Anchor" href="#特殊线">#</a> 特殊线</h2><p>分隔线</p><hr><p><code>删除线</code></p><!-- <u>下划线</n> --><p>[^ 注释]：这是注释，冒号用汉字的</p><h2 id="列表"><a class="markdownIt-Anchor" href="#列表">#</a> 列表</h2><p>列表：标记后面要添加一个空格<br>无序列表：</p><ul><li>列表</li><li>列表</li><li>列表</li></ul><ul><li>列表</li></ul><ul><li>列表</li></ul><p>有序列表：</p><ol><li>列表</li><li>列表</li><li>列表<br>列表嵌套：</li><li>第一项<ul><li>第一个元素</li><li>第二个元素</li></ul></li><li>第二项<ul><li>第一个元素</li><li>第二个元素</li></ul></li></ol><h2 id="区块"><a class="markdownIt-Anchor" href="#区块">#</a> 区块</h2><blockquote><p>一层</p><blockquote><p>两层</p><blockquote><p>三层</p></blockquote></blockquote></blockquote><h2 id="代码"><a class="markdownIt-Anchor" href="#代码">#</a> 代码</h2> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">被包裹的代码</span><br></pre></td></tr></table></figure><h2 id="链接"><a class="markdownIt-Anchor" href="#链接">#</a> 链接</h2><p><code>[链接名称](链接地址)</code></p><p>高级链接<br>我们可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p><p>这个链接用 1 作为网址变量 <a href="http://www.google.com/">Google</a><br> 这个链接用 runoob 作为网址变量 <a href="http://www.runoob.com/">Runoob</a><br> 然后在文档的结尾为变量赋值（网址）</p><h2 id="图片"><a class="markdownIt-Anchor" href="#图片">#</a> 图片</h2><p><code>![alt 属性文本](图片地址)</code> <br> <code>![alt属性文本](图片地址“title&quot;)</code> <br> 也可对图片地址使用变量<br>想为图片指定高度和宽度，可以使用普通的 <code>&lt;img&gt;</code>  标签<br> <code>&lt;img src='' width=&quot;20px&quot;&gt;</code></p><h2 id="表格"><a class="markdownIt-Anchor" href="#表格">#</a> 表格</h2><blockquote><p>对齐方式<br> -: 右对齐<br>:- 左对齐<br>:-: 居中对齐<br> | 表头 | 表头 | 表头 |<br>|:-😐:-|-😐<br>| 内容 | 内容 | 内容 |<br>| 内容 | 内容 | 内容 |<br>| 内容 | 内容 | 内容 |</p></blockquote><h2 id="支持的html元素"><a class="markdownIt-Anchor" href="#支持的html元素">#</a> 支持的 HTML 元素</h2><p><code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>  等<br>更多访问<a href="https://www.runoob.com/markdown/md-advance.html"> markdown</a></p><h3 id="转义"><a class="markdownIt-Anchor" href="#转义">#</a> 转义</h3><p><br>``</p><h3 id="公式"><a class="markdownIt-Anchor" href="#公式">#</a> 公式</h3><p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一级标题&quot;&gt;#&lt;/a&gt; 一级标题&lt;/h1&gt;
+&lt;h2 id=&quot;字体&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#字体&quot;&gt;#&lt;/a&gt; 字体&lt;/h2&gt;
+&lt;p</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一天遇到的点</title>
+    <link href="https://github.com/siifan168/2021/06/06/myblog-first/"/>
+    <id>https://github.com/siifan168/2021/06/06/myblog-first/</id>
+    <published>2021-06-06T01:17:03.000Z</published>
+    <updated>2021-06-06T12:07:07.613Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="各种主题的配置"><a class="markdownIt-Anchor" href="#各种主题的配置">#</a> 各种主题的配置</h1><h2 id="shoka主题"><a class="markdownIt-Anchor" href="#shoka主题">#</a> shoka 主题</h2><h3 id="一开始运行的好好的然后突然遇到一个bugunhandled-rejection-template-render-error大概意思是组件渲染错误吧-然后没找到哪里出错了-猜想可能是配置音乐播放器的时候出错了"><a class="markdownIt-Anchor" href="#一开始运行的好好的然后突然遇到一个bugunhandled-rejection-template-render-error大概意思是组件渲染错误吧-然后没找到哪里出错了-猜想可能是配置音乐播放器的时候出错了">#</a> 一开始运行的好好的，然后突然遇到一个 bug，unhandled rejection Template render error（大概意思是组件渲染错误吧）。然后没找到哪里出错了。猜想可能是配置音乐播放器的时候出错了。</h3><h2 id="next主题"><a class="markdownIt-Anchor" href="#next主题">#</a> next 主题</h2><h3 id="前面一切良好但是有两个还是三个点不能跟着改-第一个点不能将热度调出来跟着改了后还是没有变化然后就开始慢慢坏起来了-第二个点live2d插件跟busuanji插件冲突好像然后网上没有搜到什么好的解决的点于是准备把我自己解决了-第三个点音乐播放器一开始能出现半边后面写着写着就没有了全部都变成了一个不能显示的图"><a class="markdownIt-Anchor" href="#前面一切良好但是有两个还是三个点不能跟着改-第一个点不能将热度调出来跟着改了后还是没有变化然后就开始慢慢坏起来了-第二个点live2d插件跟busuanji插件冲突好像然后网上没有搜到什么好的解决的点于是准备把我自己解决了-第三个点音乐播放器一开始能出现半边后面写着写着就没有了全部都变成了一个不能显示的图">#</a> 前面一切良好，但是有两个还是三个点不能跟着改。第一个点，不能将热度调出来，跟着改了后还是没有变化，然后就开始慢慢坏起来了。第二个点，live2d 插件跟 busuanji 插件冲突好像，然后网上没有搜到什么好的解决的点，于是准备把我自己解决了（。。。）。第三个点，音乐播放器一开始能出现半边，后面写着写着就没有了，全部都变成了一个不能显示的图。</h3><h2 id="吐槽"><a class="markdownIt-Anchor" href="#吐槽">#</a> 吐槽</h2><h3 id="background那个图是真的服了一开始没准备用的然后想跟到走一遍结果在图床上一直找不到也报错我也有点搞忘了这个到底放哪里的应该在外面的配置项里面吧因为我记得是在shoka里面写的然后shoka崩了后再换到next写但是next中还是有这个错误"><a class="markdownIt-Anchor" href="#background那个图是真的服了一开始没准备用的然后想跟到走一遍结果在图床上一直找不到也报错我也有点搞忘了这个到底放哪里的应该在外面的配置项里面吧因为我记得是在shoka里面写的然后shoka崩了后再换到next写但是next中还是有这个错误">#</a> background 那个图是真的服了，一开始没准备用的，然后想跟到走一遍，结果在图床上一直找不到，也报错，我也有点搞忘了这个到底放哪里的（应该在外面的配置项里面吧，因为我记得是在 shoka 里面写的，然后 shoka 崩了后再换到 next 写，但是 next 中还是有这个错误</h3><h3 id="live2d那个东西就没有人报过错嘛我搜了好多全是看板娘制作-果然计算机的都是lsp了"><a class="markdownIt-Anchor" href="#live2d那个东西就没有人报过错嘛我搜了好多全是看板娘制作-果然计算机的都是lsp了">#</a> live2d 那个东西就没有人报过错嘛，我搜了好多，全是看板娘制作。果然，计算机的都是 lsp 了。</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;各种主题的配置&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#各种主题的配置&quot;&gt;#&lt;/a&gt; 各种主题的配置&lt;/h1&gt;
+&lt;h2 id=&quot;shoka主题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#shoka主</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
