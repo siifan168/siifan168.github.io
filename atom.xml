@@ -6,7 +6,7 @@
   <link href="https://github.com/siifan168/atom.xml" rel="self"/>
   
   <link href="https://github.com/siifan168/"/>
-  <updated>2021-06-06T07:42:00.822Z</updated>
+  <updated>2021-06-07T01:38:34.681Z</updated>
   <id>https://github.com/siifan168/</id>
   
   <author>
@@ -15,6 +15,52 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>node</title>
+    <link href="https://github.com/siifan168/2021/06/07/node/"/>
+    <id>https://github.com/siifan168/2021/06/07/node/</id>
+    <published>2021-06-07T01:38:08.000Z</published>
+    <updated>2021-06-07T01:38:34.681Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="学习难点"><a class="markdownIt-Anchor" href="#学习难点">#</a> 学习难点</h1><p>计算机网络：<br>算法：(什么是算法，那种才算算法呢)<br> 数据结构：<br>个人博客建立：hexo，怎样将自己写的博客部署到网站上<br> hexo 学习还未开始<br>搞了个乌龙，我还以为做博客是用 hexo 呢（是真的很简单，只需要把别人的主题引入<br>然后再修改细致的地方就可以了），结果是可以用 vue 加 node 或者 java 还有数据库呢。</p><h1 id="已学习"><a class="markdownIt-Anchor" href="#已学习">#</a> 已学习</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;学习难点&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#学习难点&quot;&gt;#&lt;/a&gt; 学习难点&lt;/h1&gt;
+&lt;p&gt;计算机网络：&lt;br&gt;
+算法：(什么是算法，那种才算算法呢)&lt;br&gt;
+ 数据结构：&lt;br&gt;
+个人博客建立：hexo，怎样将自己写的博</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>two-day</title>
+    <link href="https://github.com/siifan168/2021/06/07/two-day/"/>
+    <id>https://github.com/siifan168/2021/06/07/two-day/</id>
+    <published>2021-06-07T01:33:42.000Z</published>
+    <updated>2021-06-07T01:37:47.433Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="总结昨日错误"><a class="markdownIt-Anchor" href="#总结昨日错误">#</a> 总结昨日错误</h1><p>昨天有点自大了，以为他们都是靠 hexo 直接写博客，现在才晓得还要用数据库巴拉巴拉的，提到数据库就摆脑壳</p><h1 id="今日工作"><a class="markdownIt-Anchor" href="#今日工作">#</a> 今日工作</h1><h2 id="一-先用hexo把唐大憨的个人博客写起给她个惊喜"><a class="markdownIt-Anchor" href="#一-先用hexo把唐大憨的个人博客写起给她个惊喜">#</a> 一、先用 hexo 把唐大憨的个人博客写起给她个惊喜</h2><h2 id="二-了解怎样用vue和node写个人博客步骤和流程"><a class="markdownIt-Anchor" href="#二-了解怎样用vue和node写个人博客步骤和流程">#</a> 二、了解怎样用 vue 和 node 写个人博客（步骤和流程）</h2><h2 id="三-有多余时间就把丁时一的题拿着练一下"><a class="markdownIt-Anchor" href="#三-有多余时间就把丁时一的题拿着练一下">#</a> 三、有多余时间就把丁时一的题拿着练一下</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;总结昨日错误&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#总结昨日错误&quot;&gt;#&lt;/a&gt; 总结昨日错误&lt;/h1&gt;
+&lt;p&gt;昨天有点自大了，以为他们都是靠 hexo 直接写博客，现在才晓得还要用数据库巴拉巴拉的，提到数据库就摆脑壳&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>第一次个人博客制作</title>
