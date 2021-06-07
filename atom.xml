@@ -6,7 +6,7 @@
   <link href="https://github.com/siifan168/atom.xml" rel="self"/>
   
   <link href="https://github.com/siifan168/"/>
-  <updated>2021-06-07T01:38:34.681Z</updated>
+  <updated>2021-06-07T02:36:00.981Z</updated>
   <id>https://github.com/siifan168/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>vue博客记录</title>
+    <link href="https://github.com/siifan168/2021/06/07/vue%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/"/>
+    <id>https://github.com/siifan168/2021/06/07/vue%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/</id>
+    <published>2021-06-07T02:23:22.000Z</published>
+    <updated>2021-06-07T02:36:00.981Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="页面包括"><a class="markdownIt-Anchor" href="#页面包括">#</a> 页面包括</h1><p>首页：包括博客文章的总览，右边导航区<br>博客详情：包括文章内容、字数、热度<br>个人描述：文字描述</p><h1 id="功能"><a class="markdownIt-Anchor" href="#功能">#</a> 功能</h1><h2 id="主要功能"><a class="markdownIt-Anchor" href="#主要功能">#</a> 主要功能</h2><pre><code>添加文章删除文章音乐播放</code></pre><h1 id="数据表"><a class="markdownIt-Anchor" href="#数据表">#</a> 数据表</h1><p>文章表：<br>文章 ID、文章名称、文章最新更新时间、字数、文章内容<br>音乐表：<br>音乐 ID、音乐名称、音乐作者、播放地址链接、播放时间、背景图片</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;页面包括&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#页面包括&quot;&gt;#&lt;/a&gt; 页面包括&lt;/h1&gt;
+&lt;p&gt;首页：包括博客文章的总览，右边导航区&lt;br&gt;
+博客详情：包括文章内容、字数、热度&lt;br&gt;
+个人描述：文字描述&lt;/p&gt;
+&lt;h1 id</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>node</title>
@@ -63,27 +87,6 @@
   </entry>
   
   <entry>
-    <title>第一次个人博客制作</title>
-    <link href="https://github.com/siifan168/2021/06/06/hello-world/"/>
-    <id>https://github.com/siifan168/2021/06/06/hello-world/</id>
-    <published>2021-06-06T06:08:51.000Z</published>
-    <updated>2021-06-06T07:42:00.822Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="来源"><a class="markdownIt-Anchor" href="#来源">#</a> 来源</h2><p>借鉴了很多大佬的框架和技术，一开始感觉做出来很开心，但是一看同学已经自己搞出来了一个独立的博客，就深感，革命仍未成功，同志还需努力！！！！！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;来源&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#来源&quot;&gt;#&lt;/a&gt; 来源&lt;/h2&gt;
-&lt;p&gt;借鉴了很多大佬的框架和技术，一开始感觉做出来很开心，但是一看同学已经自己搞出来了一个独立的博客，就深感，革命仍未成功，同志还需努力！！！！！&lt;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>markdom语句</title>
     <link href="https://github.com/siifan168/2021/06/06/markdom%E8%AF%AD%E5%8F%A5/"/>
     <id>https://github.com/siifan168/2021/06/06/markdom%E8%AF%AD%E5%8F%A5/</id>
@@ -98,6 +101,27 @@
     <summary type="html">&lt;h1 id=&quot;一级标题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一级标题&quot;&gt;#&lt;/a&gt; 一级标题&lt;/h1&gt;
 &lt;h2 id=&quot;字体&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#字体&quot;&gt;#&lt;/a&gt; 字体&lt;/h2&gt;
 &lt;p</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一次个人博客制作</title>
+    <link href="https://github.com/siifan168/2021/06/06/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%97%AE%E4%B8%96/"/>
+    <id>https://github.com/siifan168/2021/06/06/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%97%AE%E4%B8%96/</id>
+    <published>2021-06-06T06:08:51.000Z</published>
+    <updated>2021-06-07T02:22:35.698Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="来源"><a class="markdownIt-Anchor" href="#来源">#</a> 来源</h2><p>借鉴了很多大佬的框架和技术，一开始感觉做出来很开心，但是一看同学已经自己搞出来了一个独立的博客，就深感，革命仍未成功，同志还需努力！！！！！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;来源&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#来源&quot;&gt;#&lt;/a&gt; 来源&lt;/h2&gt;
+&lt;p&gt;借鉴了很多大佬的框架和技术，一开始感觉做出来很开心，但是一看同学已经自己搞出来了一个独立的博客，就深感，革命仍未成功，同志还需努力！！！！！&lt;</summary>
       
     
     
