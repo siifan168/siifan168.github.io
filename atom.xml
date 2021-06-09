@@ -6,7 +6,7 @@
   <link href="https://github.com/siifan168/siifan168.github.io.git/atom.xml" rel="self"/>
   
   <link href="https://github.com/siifan168/siifan168.github.io.git/"/>
-  <updated>2021-06-07T02:36:00.981Z</updated>
+  <updated>2021-06-09T13:06:20.453Z</updated>
   <id>https://github.com/siifan168/siifan168.github.io.git/</id>
   
   <author>
@@ -15,6 +15,49 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机网络</title>
+    <link href="https://github.com/siifan168/siifan168.github.io.git/2021/06/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    <id>https://github.com/siifan168/siifan168.github.io.git/2021/06/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</id>
+    <published>2021-06-08T01:24:11.000Z</published>
+    <updated>2021-06-09T13:06:20.453Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第一章-概述"><a class="markdownIt-Anchor" href="#第一章-概述">#</a> 第一章、概述</h1><p>互联网现在采用的是存储转发的分组交换技术和三组 ISP 结构<br>三组 ISP 结构：主干 ISP、地区 ISP、本地 ISP<br> 互联网按工作方式分为边缘部分和核心部分。路由器再核心部分，作用时按存储转发方式进行分组交换</p><p>按作用范围不同，网络分为广域网 WAN、城域网 MAN、局域网 LAN、个人区域网 PAN</p><p>计算机通信方式：客户 - 服务器方式、对等连接方式（P2P 方式）</p><p>网络常用的性能指标：<br>速率：数据的传送速率，往往是额定速率<br>带宽：单位时间内网络中信道能通过的最高速率<br>吞吐量：单位时间内通过某网络 (或信道 / 接口) 的实际数据量<br>时延：发送时延 + 传播时延 + 排队时延 + 处理时延<br>时延带宽积：传播时延 * 带宽<br>往返 RTT：双向交互时间<br>利用率：30% 最优</p><p>TCP/IP 的四层协议：<br>应用层：通过应用进程间的交互来完成特定网络应用<br>运输层：TCP（报文段）、UDP（用户数据报）<br>网际层：IP<br> 网络接口层：<br>数据链路层：把网络层的 IP 数据报组装成帧，两个相邻结点间的链路上传送帧<br>物理层：传输数据单位是比特</p><p>TCP/IP 协议族：<br>应用层：HTTP…SMTP   DNS…RTP<br> 运输层：TCP             UDP<br> 网际层：        IP<br> 网络接口层：网络接口 1     网络接口 2      网络接口 3</p><h1 id="第二章-物理层"><a class="markdownIt-Anchor" href="#第二章-物理层">#</a> 第二章 物理层</h1><p>重要概念：<br>数据通信系统三大部分：源系统，传输系统，目的系统<br>通信分为：单向通信，双向交替通信，双向同时通信<br>传输媒体：导引型传输媒体，非导引型传输媒体<br>多路复用技术<br>频分复用<br>时分复用<br>统计时分复用、波分复用<br>码分多址</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第一章-概述&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一章-概述&quot;&gt;#&lt;/a&gt; 第一章、概述&lt;/h1&gt;
+&lt;p&gt;互联网现在采用的是存储转发的分组交换技术和三组 ISP 结构&lt;br&gt;
+三组 ISP 结构：主干 ISP、地区 ISP、</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>工作日志</title>
+    <link href="https://github.com/siifan168/siifan168.github.io.git/2021/06/08/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/"/>
+    <id>https://github.com/siifan168/siifan168.github.io.git/2021/06/08/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/</id>
+    <published>2021-06-08T01:15:47.000Z</published>
+    <updated>2021-06-09T05:41:26.266Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="67"><a class="markdownIt-Anchor" href="#67">#</a> 6/7</h1><h2 id="总结昨日错误"><a class="markdownIt-Anchor" href="#总结昨日错误">#</a> 总结昨日错误</h2><p>昨天有点自大了，以为他们都是靠 hexo 直接写博客，现在才晓得还要用数据库巴拉巴拉的，提到数据库就摆脑壳</p><h2 id="今日工作"><a class="markdownIt-Anchor" href="#今日工作">#</a> 今日工作</h2><p>一、先用 hexo 把唐大憨的个人博客写起给她个惊喜<br>二、了解怎样用 vue 和 node 写个人博客（步骤和流程）<br>三、有多余时间就把丁时一的题拿着练一下</p><h1 id="68"><a class="markdownIt-Anchor" href="#68">#</a> 6/8</h1><h2 id="总结昨日工作"><a class="markdownIt-Anchor" href="#总结昨日工作">#</a> 总结昨日工作</h2><p>昨天上午搞一了一上午的 shoka 主题，然后不管怎样都感觉搞不出合适的效果，有点沮丧。再想还给不给唐憨憨惊喜。下午又用 next 给部署的时候，感觉 hexo 好像真的不能直接添加博客文章（我不懂，但我大受震惊），准备就先这样用吧，就当一个简单的写日记的地方，反正也还挺方便的，以后有空了再整吧（我想起了那个软件也还没有写完，吐了）。</p><h2 id="今日准备工作"><a class="markdownIt-Anchor" href="#今日准备工作">#</a> 今日准备工作</h2><p>开始计算机和算法的学习，规划一下学习进度。早上和中午看计算机网络和算法，打瞌睡的话就刷一下题。下午就研究 vue 写博客。<br>今天计算机网络开张</p><h1 id="69"><a class="markdownIt-Anchor" href="#69">#</a> 6/9</h1><h2 id="总结昨日工作-2"><a class="markdownIt-Anchor" href="#总结昨日工作-2">#</a> 总结昨日工作</h2><p>昨天不晓得搞了些什么，看了一章计算机网络，搞明白了 TCP/IP 协议族和四层结构，还有就是网络交换的格式，分组交换。<br>然后看了天宇的 vue 课程，其中的 watch 的对象写法大受裨益，但是我自己写还是没写出来，准备再看看顺便把例子写上<br>个人博客优化，昨天好像没有优化什么东西，今天有空再试试<br>题库练习：进度 0</p><h2 id="今日工作-2"><a class="markdownIt-Anchor" href="#今日工作-2">#</a> 今日工作</h2><p>一、继续天宇的课程，毕竟不知道什么时候会被封，必须尽快看完<br>二、个人博客有时间就看<br>三、计算机网络二章节准备开始</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;67&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#67&quot;&gt;#&lt;/a&gt; 6/7&lt;/h1&gt;
+&lt;h2 id=&quot;总结昨日错误&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#总结昨日错误&quot;&gt;#&lt;/a&gt; 总结昨日错误&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>vue博客记录</title>
@@ -57,28 +100,6 @@
 算法：(什么是算法，那种才算算法呢)&lt;br&gt;
  数据结构：&lt;br&gt;
 个人博客建立：hexo，怎样将自己写的博</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>two-day</title>
-    <link href="https://github.com/siifan168/siifan168.github.io.git/2021/06/07/two-day/"/>
-    <id>https://github.com/siifan168/siifan168.github.io.git/2021/06/07/two-day/</id>
-    <published>2021-06-07T01:33:42.000Z</published>
-    <updated>2021-06-07T01:37:47.433Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="总结昨日错误"><a class="markdownIt-Anchor" href="#总结昨日错误">#</a> 总结昨日错误</h1><p>昨天有点自大了，以为他们都是靠 hexo 直接写博客，现在才晓得还要用数据库巴拉巴拉的，提到数据库就摆脑壳</p><h1 id="今日工作"><a class="markdownIt-Anchor" href="#今日工作">#</a> 今日工作</h1><h2 id="一-先用hexo把唐大憨的个人博客写起给她个惊喜"><a class="markdownIt-Anchor" href="#一-先用hexo把唐大憨的个人博客写起给她个惊喜">#</a> 一、先用 hexo 把唐大憨的个人博客写起给她个惊喜</h2><h2 id="二-了解怎样用vue和node写个人博客步骤和流程"><a class="markdownIt-Anchor" href="#二-了解怎样用vue和node写个人博客步骤和流程">#</a> 二、了解怎样用 vue 和 node 写个人博客（步骤和流程）</h2><h2 id="三-有多余时间就把丁时一的题拿着练一下"><a class="markdownIt-Anchor" href="#三-有多余时间就把丁时一的题拿着练一下">#</a> 三、有多余时间就把丁时一的题拿着练一下</h2>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;总结昨日错误&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#总结昨日错误&quot;&gt;#&lt;/a&gt; 总结昨日错误&lt;/h1&gt;
-&lt;p&gt;昨天有点自大了，以为他们都是靠 hexo 直接写博客，现在才晓得还要用数据库巴拉巴拉的，提到数据库就摆脑壳&lt;/p&gt;
-&lt;</summary>
       
     
     

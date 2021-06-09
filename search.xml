@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>计算机网络</title>
+    <url>/siifan168.github.io/2021/06/08/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</url>
+    <content><![CDATA[<h1 id="第一章-概述"><a class="markdownIt-Anchor" href="#第一章-概述">#</a> 第一章、概述</h1>
+<p>互联网现在采用的是存储转发的分组交换技术和三组 ISP 结构<br>
+三组 ISP 结构：主干 ISP、地区 ISP、本地 ISP<br>
+ 互联网按工作方式分为边缘部分和核心部分。路由器再核心部分，作用时按存储转发方式进行分组交换</p>
+<p>按作用范围不同，网络分为广域网 WAN、城域网 MAN、局域网 LAN、个人区域网 PAN</p>
+<p>计算机通信方式：客户 - 服务器方式、对等连接方式（P2P 方式）</p>
+<p>网络常用的性能指标：<br>
+速率：数据的传送速率，往往是额定速率<br>
+带宽：单位时间内网络中信道能通过的最高速率<br>
+吞吐量：单位时间内通过某网络 (或信道 / 接口) 的实际数据量<br>
+时延：发送时延 + 传播时延 + 排队时延 + 处理时延<br>
+时延带宽积：传播时延 * 带宽<br>
+往返 RTT：双向交互时间<br>
+利用率：30% 最优</p>
+<p>TCP/IP 的四层协议：<br>
+应用层：通过应用进程间的交互来完成特定网络应用<br>
+运输层：TCP（报文段）、UDP（用户数据报）<br>
+网际层：IP<br>
+ 网络接口层：<br>
+数据链路层：把网络层的 IP 数据报组装成帧，两个相邻结点间的链路上传送帧<br>
+物理层：传输数据单位是比特</p>
+<p>TCP/IP 协议族：<br>
+应用层：HTTP…SMTP   DNS…RTP<br>
+ 运输层：TCP             UDP<br>
+ 网际层：        IP<br>
+ 网络接口层：网络接口 1     网络接口 2      网络接口 3</p>
+<h1 id="第二章-物理层"><a class="markdownIt-Anchor" href="#第二章-物理层">#</a> 第二章 物理层</h1>
+<p>重要概念：<br>
+数据通信系统三大部分：源系统，传输系统，目的系统<br>
+通信分为：单向通信，双向交替通信，双向同时通信<br>
+传输媒体：导引型传输媒体，非导引型传输媒体<br>
+多路复用技术<br>
+频分复用<br>
+时分复用<br>
+统计时分复用、波分复用<br>
+码分多址</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>工作日志</title>
+    <url>/siifan168.github.io/2021/06/08/%E5%B7%A5%E4%BD%9C%E6%97%A5%E5%BF%97/</url>
+    <content><![CDATA[<h1 id="67"><a class="markdownIt-Anchor" href="#67">#</a> 6/7</h1>
+<h2 id="总结昨日错误"><a class="markdownIt-Anchor" href="#总结昨日错误">#</a> 总结昨日错误</h2>
+<p>昨天有点自大了，以为他们都是靠 hexo 直接写博客，现在才晓得还要用数据库巴拉巴拉的，提到数据库就摆脑壳</p>
+<h2 id="今日工作"><a class="markdownIt-Anchor" href="#今日工作">#</a> 今日工作</h2>
+<p>一、先用 hexo 把唐大憨的个人博客写起给她个惊喜<br>
+二、了解怎样用 vue 和 node 写个人博客（步骤和流程）<br>
+三、有多余时间就把丁时一的题拿着练一下</p>
+<h1 id="68"><a class="markdownIt-Anchor" href="#68">#</a> 6/8</h1>
+<h2 id="总结昨日工作"><a class="markdownIt-Anchor" href="#总结昨日工作">#</a> 总结昨日工作</h2>
+<p>昨天上午搞一了一上午的 shoka 主题，然后不管怎样都感觉搞不出合适的效果，有点沮丧。再想还给不给唐憨憨惊喜。下午又用 next 给部署的时候，感觉 hexo 好像真的不能直接添加博客文章（我不懂，但我大受震惊），准备就先这样用吧，就当一个简单的写日记的地方，反正也还挺方便的，以后有空了再整吧（我想起了那个软件也还没有写完，吐了）。</p>
+<h2 id="今日准备工作"><a class="markdownIt-Anchor" href="#今日准备工作">#</a> 今日准备工作</h2>
+<p>开始计算机和算法的学习，规划一下学习进度。早上和中午看计算机网络和算法，打瞌睡的话就刷一下题。下午就研究 vue 写博客。<br>
+今天计算机网络开张</p>
+<h1 id="69"><a class="markdownIt-Anchor" href="#69">#</a> 6/9</h1>
+<h2 id="总结昨日工作-2"><a class="markdownIt-Anchor" href="#总结昨日工作-2">#</a> 总结昨日工作</h2>
+<p>昨天不晓得搞了些什么，看了一章计算机网络，搞明白了 TCP/IP 协议族和四层结构，还有就是网络交换的格式，分组交换。<br>
+然后看了天宇的 vue 课程，其中的 watch 的对象写法大受裨益，但是我自己写还是没写出来，准备再看看顺便把例子写上<br>
+个人博客优化，昨天好像没有优化什么东西，今天有空再试试<br>
+题库练习：进度 0</p>
+<h2 id="今日工作-2"><a class="markdownIt-Anchor" href="#今日工作-2">#</a> 今日工作</h2>
+<p>一、继续天宇的课程，毕竟不知道什么时候会被封，必须尽快看完<br>
+二、个人博客有时间就看<br>
+三、计算机网络二章节准备开始</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>vue博客记录</title>
+    <url>/siifan168.github.io/2021/06/07/vue%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<h1 id="页面包括"><a class="markdownIt-Anchor" href="#页面包括">#</a> 页面包括</h1>
+<p>首页：包括博客文章的总览，右边导航区<br>
+博客详情：包括文章内容、字数、热度<br>
+个人描述：文字描述</p>
+<h1 id="功能"><a class="markdownIt-Anchor" href="#功能">#</a> 功能</h1>
+<h2 id="主要功能"><a class="markdownIt-Anchor" href="#主要功能">#</a> 主要功能</h2>
+<pre><code>添加文章
+删除文章
+音乐播放
+</code></pre>
+<h1 id="数据表"><a class="markdownIt-Anchor" href="#数据表">#</a> 数据表</h1>
+<p>文章表：<br>
+文章 ID、文章名称、文章最新更新时间、字数、文章内容<br>
+音乐表：<br>
+音乐 ID、音乐名称、音乐作者、播放地址链接、播放时间、背景图片</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>node</title>
+    <url>/siifan168.github.io/2021/06/07/node/</url>
+    <content><![CDATA[<h1 id="学习难点"><a class="markdownIt-Anchor" href="#学习难点">#</a> 学习难点</h1>
+<p>计算机网络：<br>
+算法：(什么是算法，那种才算算法呢)<br>
+ 数据结构：<br>
+个人博客建立：hexo，怎样将自己写的博客部署到网站上<br>
+ hexo 学习还未开始<br>
+搞了个乌龙，我还以为做博客是用 hexo 呢（是真的很简单，只需要把别人的主题引入<br>
+然后再修改细致的地方就可以了），结果是可以用 vue 加 node 或者 java 还有数据库呢。</p>
+<h1 id="已学习"><a class="markdownIt-Anchor" href="#已学习">#</a> 已学习</h1>
+]]></content>
+  </entry>
+  <entry>
+    <title>markdom语句</title>
+    <url>/siifan168.github.io/2021/06/06/markdom%E8%AF%AD%E5%8F%A5/</url>
+    <content><![CDATA[<h1 id="一级标题"><a class="markdownIt-Anchor" href="#一级标题">#</a> 一级标题</h1>
+<h2 id="字体"><a class="markdownIt-Anchor" href="#字体">#</a> 字体</h2>
+<p><em>斜体</em><br>
+<em>斜体</em><br>
+<strong>粗体文本</strong><br>
+<strong>粗体文本</strong><br>
+<em><strong>粗斜体文本</strong></em><br>
+<em><strong>粗斜体文本</strong></em></p>
+<h2 id="特殊线"><a class="markdownIt-Anchor" href="#特殊线">#</a> 特殊线</h2>
+<p>分隔线</p>
+<hr>
+<p><code>删除线</code></p>
+<!-- <u>下划线</n> -->
+<p>[^ 注释]：这是注释，冒号用汉字的</p>
+<h2 id="列表"><a class="markdownIt-Anchor" href="#列表">#</a> 列表</h2>
+<p>列表：标记后面要添加一个空格<br>
+无序列表：</p>
+<ul>
+<li>列表</li>
+<li>列表</li>
+<li>列表</li>
+</ul>
+<ul>
+<li>列表</li>
+</ul>
+<ul>
+<li>列表</li>
+</ul>
+<p>有序列表：</p>
+<ol>
+<li>列表</li>
+<li>列表</li>
+<li>列表<br>
+列表嵌套：</li>
+<li>第一项
+<ul>
+<li>第一个元素</li>
+<li>第二个元素</li>
+</ul>
+</li>
+<li>第二项
+<ul>
+<li>第一个元素</li>
+<li>第二个元素</li>
+</ul>
+</li>
+</ol>
+<h2 id="区块"><a class="markdownIt-Anchor" href="#区块">#</a> 区块</h2>
+<blockquote>
+<p>一层</p>
+<blockquote>
+<p>两层</p>
+<blockquote>
+<p>三层</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="代码"><a class="markdownIt-Anchor" href="#代码">#</a> 代码</h2>
+ <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">被包裹的代码</span><br></pre></td></tr></table></figure>
+<h2 id="链接"><a class="markdownIt-Anchor" href="#链接">#</a> 链接</h2>
+<p><code>[链接名称](链接地址)</code></p>
+<p>高级链接<br>
+我们可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p>
+<p>这个链接用 1 作为网址变量 <a href="http://www.google.com/">Google</a><br>
+ 这个链接用 runoob 作为网址变量 <a href="http://www.runoob.com/">Runoob</a><br>
+ 然后在文档的结尾为变量赋值（网址）</p>
+<h2 id="图片"><a class="markdownIt-Anchor" href="#图片">#</a> 图片</h2>
+<p><code>![alt 属性文本](图片地址)</code> <br>
+ <code>![alt属性文本](图片地址“title&quot;)</code> <br>
+ 也可对图片地址使用变量<br>
+想为图片指定高度和宽度，可以使用普通的 <code>&lt;img&gt;</code>  标签<br>
+ <code>&lt;img src='' width=&quot;20px&quot;&gt;</code></p>
+<h2 id="表格"><a class="markdownIt-Anchor" href="#表格">#</a> 表格</h2>
+<blockquote>
+<p>对齐方式<br>
+ -: 右对齐<br>
+:- 左对齐<br>
+:-: 居中对齐<br>
+ | 表头 | 表头 | 表头 |<br>
+|:-😐:-|-😐<br>
+| 内容 | 内容 | 内容 |<br>
+| 内容 | 内容 | 内容 |<br>
+| 内容 | 内容 | 内容 |</p>
+</blockquote>
+<h2 id="支持的html元素"><a class="markdownIt-Anchor" href="#支持的html元素">#</a> 支持的 HTML 元素</h2>
+<p><code>&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;</code>  等<br>
+更多访问<a href="https://www.runoob.com/markdown/md-advance.html"> markdown</a></p>
+<h3 id="转义"><a class="markdownIt-Anchor" href="#转义">#</a> 转义</h3>
+<p><br>
+``</p>
+<h3 id="公式"><a class="markdownIt-Anchor" href="#公式">#</a> 公式</h3>
+<p>当你需要在编辑器中插入数学公式时，可以使用两个美元符 $$ 包裹 TeX 或 LaTeX 格式的数学公式来实现。提交后，问答和文章页会根据需要加载 Mathjax 对数学公式进行渲染。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一次个人博客制作</title>
+    <url>/siifan168.github.io/2021/06/06/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E9%97%AE%E4%B8%96/</url>
+    <content><![CDATA[<h2 id="来源"><a class="markdownIt-Anchor" href="#来源">#</a> 来源</h2>
+<p>借鉴了很多大佬的框架和技术，一开始感觉做出来很开心，但是一看同学已经自己搞出来了一个独立的博客，就深感，革命仍未成功，同志还需努力！！！！！</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>第一天遇到的点</title>
+    <url>/siifan168.github.io/2021/06/06/myblog-first/</url>
+    <content><![CDATA[<h1 id="各种主题的配置"><a class="markdownIt-Anchor" href="#各种主题的配置">#</a> 各种主题的配置</h1>
+<h2 id="shoka主题"><a class="markdownIt-Anchor" href="#shoka主题">#</a> shoka 主题</h2>
+<h3 id="一开始运行的好好的然后突然遇到一个bugunhandled-rejection-template-render-error大概意思是组件渲染错误吧-然后没找到哪里出错了-猜想可能是配置音乐播放器的时候出错了"><a class="markdownIt-Anchor" href="#一开始运行的好好的然后突然遇到一个bugunhandled-rejection-template-render-error大概意思是组件渲染错误吧-然后没找到哪里出错了-猜想可能是配置音乐播放器的时候出错了">#</a> 一开始运行的好好的，然后突然遇到一个 bug，unhandled rejection Template render error（大概意思是组件渲染错误吧）。然后没找到哪里出错了。猜想可能是配置音乐播放器的时候出错了。</h3>
+<h2 id="next主题"><a class="markdownIt-Anchor" href="#next主题">#</a> next 主题</h2>
+<h3 id="前面一切良好但是有两个还是三个点不能跟着改-第一个点不能将热度调出来跟着改了后还是没有变化然后就开始慢慢坏起来了-第二个点live2d插件跟busuanji插件冲突好像然后网上没有搜到什么好的解决的点于是准备把我自己解决了-第三个点音乐播放器一开始能出现半边后面写着写着就没有了全部都变成了一个不能显示的图"><a class="markdownIt-Anchor" href="#前面一切良好但是有两个还是三个点不能跟着改-第一个点不能将热度调出来跟着改了后还是没有变化然后就开始慢慢坏起来了-第二个点live2d插件跟busuanji插件冲突好像然后网上没有搜到什么好的解决的点于是准备把我自己解决了-第三个点音乐播放器一开始能出现半边后面写着写着就没有了全部都变成了一个不能显示的图">#</a> 前面一切良好，但是有两个还是三个点不能跟着改。第一个点，不能将热度调出来，跟着改了后还是没有变化，然后就开始慢慢坏起来了。第二个点，live2d 插件跟 busuanji 插件冲突好像，然后网上没有搜到什么好的解决的点，于是准备把我自己解决了（。。。）。第三个点，音乐播放器一开始能出现半边，后面写着写着就没有了，全部都变成了一个不能显示的图。</h3>
+<h2 id="吐槽"><a class="markdownIt-Anchor" href="#吐槽">#</a> 吐槽</h2>
+<h3 id="background那个图是真的服了一开始没准备用的然后想跟到走一遍结果在图床上一直找不到也报错我也有点搞忘了这个到底放哪里的应该在外面的配置项里面吧因为我记得是在shoka里面写的然后shoka崩了后再换到next写但是next中还是有这个错误"><a class="markdownIt-Anchor" href="#background那个图是真的服了一开始没准备用的然后想跟到走一遍结果在图床上一直找不到也报错我也有点搞忘了这个到底放哪里的应该在外面的配置项里面吧因为我记得是在shoka里面写的然后shoka崩了后再换到next写但是next中还是有这个错误">#</a> background 那个图是真的服了，一开始没准备用的，然后想跟到走一遍，结果在图床上一直找不到，也报错，我也有点搞忘了这个到底放哪里的（应该在外面的配置项里面吧，因为我记得是在 shoka 里面写的，然后 shoka 崩了后再换到 next 写，但是 next 中还是有这个错误</h3>
+<h3 id="live2d那个东西就没有人报过错嘛我搜了好多全是看板娘制作-果然计算机的都是lsp了"><a class="markdownIt-Anchor" href="#live2d那个东西就没有人报过错嘛我搜了好多全是看板娘制作-果然计算机的都是lsp了">#</a> live2d 那个东西就没有人报过错嘛，我搜了好多，全是看板娘制作。果然，计算机的都是 lsp 了。</h3>
+]]></content>
+  </entry>
+</search>
